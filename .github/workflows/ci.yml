@@ -63,13 +63,13 @@ jobs:
       - name: Unit tests
         run: python -m pytest -q
 
-    image:
-      needs: test
-      runs-on: ubuntu-latest
+  image:
+    needs: test
+    runs-on: ubuntu-latest
 
-      permissions:
-        contents: read
-        packages: write
+    permissions:
+      contents: read
+      packages: write
 
     steps:
       - name: Checkout
