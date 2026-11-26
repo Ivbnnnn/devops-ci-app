@@ -166,7 +166,7 @@ jobs:
 
       - name: Deploy with Ansible
         working-directory: ansible
-        run: ansible-playbook site.yml -e "app_tag=fdhskfhdsfldsl"
+        run: ansible-playbook site.yml -e "app_tag=fdh657687687"
 
       - name: Check through Nginx
         run: |
